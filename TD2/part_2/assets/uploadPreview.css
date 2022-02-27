@@ -1,0 +1,147 @@
+#imgPreview {
+	width: 200px; 
+	max-height: 200px;
+	display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+*
+{
+  font-family: poppins;
+  text-decoration: none;
+  user-select: none;
+}
+
+.center
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a
+{
+  color: #fff;
+}
+
+.crumb1 li
+{
+  display: inline-block;
+  padding: 15px;
+  background: #3399ff;
+  transform: skew(-20deg);
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.crumb1 li:hover
+{
+  opacity: 1;
+}
+
+.crumb1 li a
+{
+  display: block;
+  transform: skew(20deg);
+}
+
+.crumb2 li
+{
+  display: inline-block;
+  padding: 15px;
+  background: orange;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+/* CSS */
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.crumb2 li:hover
+{
+  opacity: 1;
+}
+  
+.crumb3 li
+{
+  display: inline-block;
+  padding: 15px;
+  background: #4CAF50;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  border-radius: 7px;
+}
+
+.crumb3 li:active
+{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  background: #3e8e41;
+}
+
+.crumb3 li:hover
+{
+    background: #3e8e41;
+}
+
+

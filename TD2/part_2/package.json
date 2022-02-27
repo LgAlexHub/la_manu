@@ -1,0 +1,14 @@
+{
+  "name": "td2bis",
+  "version": "1.0.0",
+  "description": "> Nous allons mettre en place la gallerie photos qui permettra, de manière ludique, de partager les photos uploadées.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lightbox2": "^2.11.3"
+  }
+}
