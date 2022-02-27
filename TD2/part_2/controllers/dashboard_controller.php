@@ -173,7 +173,11 @@
             header("Location: http://localhost/LAMANU/TD2/part_2/views/dashboard.php?feedback_type=1&feedback=Aucun fichier détecté");
         }
     }
-
+    
+    /**
+     * Déconnexion de l'utilisateur , redirige vers l'accueil
+     * @return void
+     */
     function on_logout(){
         var_dump(session_destroy());
         header("Location: http://localhost/LAMANU/TD2/part_2/index.php");

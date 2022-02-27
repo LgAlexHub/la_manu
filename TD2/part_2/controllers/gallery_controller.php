@@ -30,6 +30,10 @@
         // sinon rajouter une page d'erreur
     }
 
+    /**
+     * Récupère tous les chemins des images dans le dossier /img
+     * @return string $return_string retourne tous les chemins disponnible en une seule string avec comme sépérateur ","
+     */
     function get_picture_path(){
         $img_path = scandir('../img/');
         unset($img_path[0]);
